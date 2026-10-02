@@ -1,0 +1,20 @@
+# Core
+pandas>=2.0
+numpy>=1.26
+scikit-learn>=1.4
+python-dotenv>=1.0
+# GenAI / agentic (LangChain ecosystem)
+langchain>=0.3
+langchain-core>=0.3
+langchain-openai>=0.2        # OpenAI + Azure OpenAI
+langchain-anthropic>=0.3     # optional: Claude models
+langgraph>=0.2               # optional: LLM-driven ReAct tool agent
+# Deep learning classifier
+tensorflow>=2.16             # use tensorflow-cpu in Docker/CI
+# UI / API
+streamlit>=1.35
+plotly>=5.20
+fastapi>=0.110
+uvicorn>=0.29
+# Tests
+pytest>=8.0
